@@ -1,4 +1,10 @@
-# Brunch + Babel/ES6
+# Grace Hopper Museum Site
+This site was created for Grimby to display facts about Grace Hopper to her class.
+
+Grace is actually a very interesting individual, see [wikipedia](https://en.wikipedia.org/wiki/Grace_Hopper)
+
+
+##Brunch + Babel/ES6
 
 This is a modern JS skeleton for [Brunch](http://brunch.io).
 
