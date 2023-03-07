@@ -3,16 +3,17 @@ This site was created for Grimby to display facts about Grace Hopper to her clas
 
 Grace is actually a very interesting individual, see [wikipedia](https://en.wikipedia.org/wiki/Grace_Hopper)
 
+This site was built using jquery and Brunch, also the trusty skeleton.css
 
-## Brunch + Babel/ES6
+### Brunch + Babel/ES6
 
 This is a modern JS skeleton for [Brunch](http://brunch.io).
 
-## Installation
+### Installation
 
 Clone this repo manually or use `brunch new dir -s brunch/with-es6`
 
-## Getting started
+### Getting started
 
 * Install (if you don't have them):
     * [Node.js](http://nodejs.org): `brew install node` on OS X
@@ -24,11 +25,4 @@ Clone this repo manually or use `brunch new dir -s brunch/with-es6`
 * Learn:
     * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
     * Place static files you want to be copied from `app/assets/` to `public/`.
-    * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
-
-## ES7
-
-To use proposed JS features not included into ES6, do this:
-
-* `npm install --save-dev babel-preset-stage-0`
-* in `brunch-config.js`, add the preset: `presets: ['es2015', 'stage-0']`
+    * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme
