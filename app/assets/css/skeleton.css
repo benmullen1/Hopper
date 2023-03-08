@@ -125,7 +125,35 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  color: #222;
+  background: #e0ebeb; 
+}
+
+/* Colors
+––––––––––––––––––––––––––––––––––––––––––––––––––
+  aqua 
+	 #5dacbd; 
+	 highlighted text
+	 links
+	 
+  blue 
+	#24527a; 
+	buttons
+	link hover
+	
+
+
+  green 
+	#a7bcb9 
+	
+	
+  light gray
+	#e0ebeb
+	background and highlighted text
+
+*/
+
+  
 
 
 /* Typography
@@ -158,9 +186,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #5dacbd; }
 a:hover {
-  color: #0FA0CE; }
+  color: #24527a; }
 
 
 /* Buttons
@@ -173,7 +201,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #555;
+  color: #e0ebeb;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -182,7 +210,7 @@ input[type="button"] {
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  background-color: transparent;
+  background-color: #24527a;
   border-radius: 4px;
   border: 1px solid #bbb;
   cursor: pointer;
@@ -197,7 +225,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
+  color: #5dacbd;
   border-color: #888;
   outline: 0; }
 .button.button-primary,
@@ -205,7 +233,7 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #FFF;
+  color: #5dacbd;
   background-color: #33C3F0;
   border-color: #33C3F0; }
 .button.button-primary:hover,
@@ -218,7 +246,7 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #FFF;
+  color: #5dacbd;
   background-color: #1EAEDB;
   border-color: #1EAEDB; }
 
