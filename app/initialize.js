@@ -39,9 +39,9 @@ document.addEventListener('DOMContentLoaded', () => {
 	toggleSection('childhood');
   })
 
-  $("#legacyButton").click(function(){
+  $("#funFactsButton").click(function(){
 	console.log('Switching to Legacy section');
-	toggleSection('legacy');
+	toggleSection('funFacts');
   })
   
   $("#creditsButton").click(function(){
@@ -56,7 +56,7 @@ function toggleSection(name){
 	$("#contribution").css('display','none');
 	$("#fame").css('display','none');
 	$("#childhood").css('display','none');
-	$("#legacy").css('display','none');
+	$("#funFacts").css('display','none');
 	$("#credits").css('display','none');
 	switch (name){
 		case "mainContent":
@@ -71,8 +71,8 @@ function toggleSection(name){
 		case "childhood":
 			$("#childhood").css('display','inline');
 			break;
-		case "legacy":
-			$("#legacy").css('display','inline');
+		case "funFacts":
+			$("#funFacts").css('display','inline');
 			break;
 		case "credits":
 			$("#credits").css('display','inline');
